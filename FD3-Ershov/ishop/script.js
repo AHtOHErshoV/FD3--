@@ -9,6 +9,7 @@ const ShopTable = React.createClass({
         }
     },
 
+    
     render: function () {
 
         const products = this.props.productsArr.map((e) => {
